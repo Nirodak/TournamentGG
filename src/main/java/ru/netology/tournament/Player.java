@@ -6,7 +6,7 @@ public class Player {
     private int strength;
     private static int count = 0;
 
-    public Player(int id, String name, int strength) {
+    public Player(String name, int strength) {
         this.name = name;
         this.strength = strength;
         count++;
