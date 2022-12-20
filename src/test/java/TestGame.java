@@ -39,6 +39,7 @@ public class TestGame {
     public void TestNoRegistered1() {
         Assertions.assertThrows(NoRegisteredException.class, () -> game.round("sss", "Agnec"));
     }
+
     @Test
     public void TestNoRegistered2() {
         Assertions.assertThrows(NoRegisteredException.class, () -> game.round("Zyhka", "qwerty"));
